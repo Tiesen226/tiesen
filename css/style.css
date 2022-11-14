@@ -1,0 +1,118 @@
+html {
+  background-image: url("/tiesen/img/bg.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+#wallpaper {
+  width: 75%;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  border: 2px solid black;
+}
+
+#avatar {
+  width: 25%;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5%;
+  border-radius: 50%;
+  z-index: 2;
+  border: 2px solid black;
+}
+
+.name {
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+#sign {
+  text-align: end;
+}
+
+.bio {
+  text-align: center;
+  font-size: 120%;
+}
+
+.about,
+.contact {
+  width: auto;
+  height: auto;
+  background-color: rgba(233, 233, 234, 0.69);
+  padding: 1.5%;
+  border: 2px solid rgba(202, 203, 201, 1);
+  font-size: 140%;
+  line-height: 150%;
+}
+
+hr {
+  border-top: 5px solid rgba(202, 203, 201, 0.69);
+}
+
+button {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 120%;
+  font-weight: bold;
+  margin-top: 1%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#dc {
+  background-color: rgba(64, 78, 237, 0.69);
+}
+
+#fb {
+  background-color: rgba(24, 119, 242, 0.69);
+}
+
+#tw {
+  background-color: rgba(29, 161, 242, 0.69);
+}
+
+#gh {
+  background-color: rgba(22, 27, 34, 0.69);
+}
+
+#vz {
+  background-color: rgba(92, 112, 153, 0.69);
+}
+
+#yt {
+  background-color: rgba(255, 6.9, 6.9, 0.69);
+}
+
+#st {
+  background-color: rgba(58, 99, 144, 0.69);
+}
+
+.bt:hover,
+.bt:active {
+  transform: scale(1.05);
+}
+
+.information .small-icon:hover,
+.information .small-icon:active {
+  transform: scale(1.3);
+  color: rgba(245, 197, 170, 1);
+}
+
+.information li i {
+  transition: all 0.3s;
+}
